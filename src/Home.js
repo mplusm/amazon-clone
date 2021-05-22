@@ -7,7 +7,7 @@ function Home() {
         <div className = "home">
             <div className = "home__container">
                 <img className="home__image"
-                src = "https://photos5.appleinsider.com/gallery/21285-24150-21211-23951-Screen-Shot-2017-05-05-at-100758-AM-l-xl.jpg" 
+                src = "https://images-na.ssl-images-amazon.com/images/G/01/Events/2019/01112499/concert/en/us_vod_concert_pdp_dt_banner_1500x375_en.jpg" 
                 alt=""/>
 
                 <div className="home__row">
