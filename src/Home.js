@@ -30,18 +30,18 @@ function Home() {
                 <div className="home__row">
                     <Product
                     title='Adidas slides' 
-                    price={250.99}
+                    price={24.99}
                     image="http://www.pngall.com/wp-content/uploads/2016/06/Adidas-Logo-PNG-Image.png"
                     rating ={2}
                     />
                     <Product
                     title='Nike slides' 
-                    price={250.99}
+                    price={30.99}
                     image="https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/ylkvzp96xqjf1id9xzhq/benassi-jdi-printed-mens-slide-dE3Mvj.jpg"
                     rating ={5}/>
                     <Product
                     title='Cricket bat' 
-                    price={250.99}
+                    price={50.99}
                     image="https://www.freepngimg.com/thumb/cricket/31767-6-cricket-bat-hd.png"
                     rating ={3}/>
                     
@@ -51,7 +51,7 @@ function Home() {
                 <div className="home__row">
                     <Product
                     title='Glass Bottle' 
-                    price={250.99}
+                    price={2.99}
                     image="https://pluspng.com/img-png/bottle-png--600.png"
                     rating ={1}/>
                     
