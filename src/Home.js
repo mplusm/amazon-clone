@@ -12,30 +12,48 @@ function Home() {
 
                 <div className="home__row">
 
-                    <Product title='the lean startup' price={29.99}
-                    image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
-                    rating ={5}
+                    <Product title='Android phone' 
+                    price={250.99}
+                    image="https://freepngimg.com/thumb/android/31538-1-android-free-download.png"
+                    rating ={4}
                     />
 
                     <Product
-                    title ="Kenwood Mix Stand for Baking"
-                    price={239.0}
-                    rating={4}
-                    image="https://images-na.ssl-images-amazon.com/images/I/810%2BGNdkzKL._AC_SX450_.jpg"
+                    title ="Apple phone"
+                    price={600.0}
+                    rating={5}
+                    image="https://purepng.com/public/uploads/medium/purepng.com-apple-iphone-xappleapple-iphonephonesmartphonemobile-devicetouch-screeniphone-xiphone-10electronicsobjects-251530689596pnjba.png"
                     />
 
                 </div>
 
                 <div className="home__row">
-                    <Product/>
-                    <Product/>
-                    <Product/>
+                    <Product
+                    title='Adidas slides' 
+                    price={250.99}
+                    image="http://www.pngall.com/wp-content/uploads/2016/06/Adidas-Logo-PNG-Image.png"
+                    rating ={2}
+                    />
+                    <Product
+                    title='Nike slides' 
+                    price={250.99}
+                    image="https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/ylkvzp96xqjf1id9xzhq/benassi-jdi-printed-mens-slide-dE3Mvj.jpg"
+                    rating ={5}/>
+                    <Product
+                    title='Cricket bat' 
+                    price={250.99}
+                    image="https://www.freepngimg.com/thumb/cricket/31767-6-cricket-bat-hd.png"
+                    rating ={3}/>
                     
                     
                 </div>
 
                 <div className="home__row">
-                    <Product/>
+                    <Product
+                    title='Glass Bottle' 
+                    price={250.99}
+                    image="https://pluspng.com/img-png/bottle-png--600.png"
+                    rating ={1}/>
                     
                     </div>
             </div>
