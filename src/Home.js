@@ -21,7 +21,7 @@ function Home() {
                     title ="Kenwood Mix Stand for Baking"
                     price={239.0}
                     rating={4}
-                    image=""
+                    image="https://images-na.ssl-images-amazon.com/images/I/810%2BGNdkzKL._AC_SX450_.jpg"
                     />
 
                 </div>
