@@ -2,18 +2,36 @@ import React from 'react'
 import "./Checkout.css";
 import "./Subtotal.css";
 import Subtotal from "./Subtotal";
+import { useStateValue } from "./StateProvider";
+import CheckoutProduct from "./CheckoutProduct";
+
 
 function Checkout() {
+    const [{ basket }, dispatch] = useStateValue();
+
     return (
         <div className ="checkout">
             <div className="checkout__left">
-                <img className="checkout__sd" src="https://www.mobiledekho.com/wp-content/uploads/2018/01/952x501-3-5.jpg"
+                <img className="checkout__ad" src="https://www.dollyinsider.com/wp-content/uploads/2019/07/Amazon-Prime-Day-banner2.jpg"
                 alt=""
                 />
 
                 <div> 
                 <h2 className ="checkout__title">Shopping Basket
                 </h2>
+               {basket.map(item => (
+                   <CheckoutProduct
+                   id={item.id}
+                   title ={item.title}
+                   image={item.image}
+                   price={item.price}
+                   rating ={item.rating}
+                   />
+               )
+                )}
+
+
+
                 </div>
                 
                 <div className="checkout__right">
