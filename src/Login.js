@@ -12,7 +12,7 @@ function Login() {
     const signIn = e => {
         e.preventDefault ();
 
-        auth.signInWithEmailAndPassword(email, password).auth
+        auth.signInWithEmailAndPassword(email, password).then
         (auth => {
             history.push('/')
         })
@@ -63,4 +63,4 @@ function Login() {
     )
 }
 
-export default Login
+export default Login;
