@@ -29,4 +29,4 @@ function Subtotal() {
     )
 }
 
-export default Subtotal
+export default Subtotal;
