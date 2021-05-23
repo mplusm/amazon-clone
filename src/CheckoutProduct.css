@@ -21,3 +21,11 @@
   width: 180px;
   height: 180px;
 }
+.checkoutProduct__rating {
+  display: flex;
+}
+
+.checkoutProduct {
+  font-size: 17px;
+  font-weight: 800;
+}
